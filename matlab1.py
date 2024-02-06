@@ -2,13 +2,13 @@
 print("hello world")
 
 # 2. addition of two numbers
-a = int(input("enter number 1"))
-b = int(input("enter number 2"))
+a = float(input("enter number 1"))
+b = float(input("enter number 2"))
 print("sum of the two numbers is ",a+b)
 
 # 3.division of two real numbers
-c = int(input("enter number"))
-d = int(input("enter number"))
+c = input("enter number")
+d = input("enter number")
 if ((type(c)==int or float)and (type(d)==int or float)):
     print("division of the two numbers ",a,"and",b,"is ",a/b)
 else:
